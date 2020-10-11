@@ -20,9 +20,13 @@ body {
 
 /* centers the platform buttons */
 #choice {
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    #choice{
     width: 60%;
-    margin-left: auto;
-    margin-right:auto;
+    }
 }
 
 #choice > p {
