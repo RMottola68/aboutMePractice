@@ -38,7 +38,7 @@ body {
     max-height: 128px;
 }
 
-section figure {
+#carousel figure {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
