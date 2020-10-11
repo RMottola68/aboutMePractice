@@ -1,19 +1,52 @@
 body {
-    background-color: rgb(33,14, 94);
-}
-#synthBackground {
-    background-size:100%;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
+    color: rgb(85,231,255);
+    background-color: rgb(32,17,72);
+    font-family: impact, arial, sans-sarif;
 }
 
 #navBar {
     color: rgb(258, 78, 239);
     list-style-type: none;
+    background-color: rgb(255,52,179);
 }
 
 #navBar > li {
     display: inline;
-    padding: 20px 20px;
+    padding: 10px;
+    color: rgb(85,231,255);
+    font-size: x-large;
+    position: relative; bottom: 8px;
+}
+
+/* centers the platform buttons */
+#choice {
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#choice > p {
+    padding-top: 200px;
+    text-align: center;
+    color:rgb(85,231,255);
+}
+
+/* places the three buttons on the same lines */
+.platformButton {
+    display: inline-block;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+section figure {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
+
+.addInfoCaption {
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
 }
