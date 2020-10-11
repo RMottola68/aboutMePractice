@@ -1,0 +1,9 @@
+1) As a livestreamer, I want media requests to be automatically 
+marked or deleted to avoid breaking my platform's terms of service.
+
+2) As a content creator, I'd like my videos to be labeled as "TOS" so 
+livestreamers can view them without worrying about bans.
+
+3) As a viewer, I'd like the media that I request to be marked as abiding 
+by a streaming platform's terms of service, so that my favorite content
+creators aren't afraid of being banned.
