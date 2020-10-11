@@ -38,6 +38,26 @@ body {
     max-height: 128px;
 }
 
+#carousel > figure > img{
+    display: none;
+    margin: 0px auto;
+}
+
+#carousel > figure.visible > img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel > figure > figcaption {
+    display: none;
+}
+
+#carousel > figure.visible > figcaption {
+    display: block;
+    text-align: center;
+}
+
 #carousel figure {
     margin-top: 60px;
     margin-left: auto;
