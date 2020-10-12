@@ -20,10 +20,14 @@ body {
     position: relative; bottom: 8px;
 }
 
+a {
+    color:rgb(85,231,255);
+    text-decoration: none;
+}
+
 .navBar li:hover {
     background: rgb(32,17,162);
 }
-
 
 /* centers the platform buttons */
 #choice {
@@ -87,7 +91,9 @@ a > img:hover {
     }
 
 .addInfoCaption {
-    line-height: 18px;
+    font-size: x-large;
+    font-weight: normal;
+    line-height: 25px;
     letter-spacing: 0.5px;
     margin-top: 5px;
 }
@@ -118,6 +124,7 @@ input[type=checkbox] {
 
 .or {
     text-align: center;
+    font-size: larger;
   }
 
 .loginButton {
@@ -145,7 +152,7 @@ input[type=checkbox] {
 }
 
 #settings {
-    transform: translateY(50%);
+    transform: translateY(20%);
     color: rgb(85,231,255);
     background-color: rgb(32,17,162);
     display: flex;

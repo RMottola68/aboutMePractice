@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Stream Censor</title>
+    <link rel="stylesheet" href="ChooseLogin.css" />
+    <script type="text/javascript" src="ChooseLogin.js"></script>
+</head>
+
+<body>
+    <header class="navBar">
+        <img src="Images/8grit.jpeg" />
+        <input id="logout" type="button" onclick="logOut()" value="Log out" />
+    </header>
+
+    <form id="settings">
+        <fieldset>
+            <legend>Filter Settings</legend>
+            <div> Media Types Allowed:
+                <ul id="checkboxes">
+                    <input type="checkbox" id="allowYT" name="clips" value="Videos">
+                    <label for="vehicle1"> Youtube Videos</label><br>
+                    <input type="checkbox" id="allowSpotify" name="spotify" value="Music">
+                    <label for="vehicle2"> Spotify Tracks</label><br>
+                    <input type="checkbox" id="allowClips" name="clips" value="Clips">
+                    <label for="vehicle3"> Twitch Clips</label>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h3>Filter Level (0 is No Filter)</h1>
+            <input id="filterLevels" type="range" min="0" max="5" value="3" />
+            <br>
+            <br>
+            <h3>Allow User Requests?</h3>
+            <div id="userRequests">
+                <input id="yesRequests" type="radio" name="requests" value="true" checked/>
+                <label for="yesRequests">Yes</label>
+                <br>
+                <input id="noRequests" type="radio" name="requests" value="false"/>
+                <label for="noRequests">No</label>
+            </div>
+            <br>
+            <br>
+            <h3>Stream Key</h3>
+            <input type="password">
+            <div id="submitFilter">
+            <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
