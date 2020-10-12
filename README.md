@@ -4,6 +4,8 @@ Hello, my name's Ryan Mottola.
 
 The name of my theoretical app/ business is "Stream Censor"
 
+I chose to create a personal site because my interests are deeply buried in livestreaming, and I'd like to focus on that field.
+
 I used HTML, CSS, and Javascript for this project.
 
 A streamer can only wear so many hats, and a moderators can only watch chat for so many hours. Let Stream Censor mod your media. 
