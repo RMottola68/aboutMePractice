@@ -26,15 +26,6 @@ function startPlayback(){
 
 startPlayback();
 
-//fake login validation
-function logIn () {
-    var datAccount = document.forms["loginForm"]["account"].value;
-    var datPass = document.forms["loginForm"]["password"].value;
-    if (datAccount == true && datPass == true) {
-        window.location="Settings.html";
-    }
-}
-
 
 
 //button takes user to facebook signup
@@ -49,5 +40,15 @@ function twitchSignup () {
 function YTSignup () {
     window.location="https://accounts.google.com/signup/v2/webcreateaccount?service=youtube&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DUZCO5k1Nu70&hl=en&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true";
 }
+
+//fake login validation
+function logIn () {
+    var datAccount = document.forms["loginForm"]["account"].value;
+    var datPass = document.forms["loginForm"]["password"].value;
+    if (datAccount == true && datPass == true) {
+        window.location="Settings.html";
+    }
+}
+
 console.log(datAccount);
 console.log(datPass);

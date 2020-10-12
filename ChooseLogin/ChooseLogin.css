@@ -38,9 +38,14 @@ body {
 
 /* places the three buttons on the same lines */
 .platformButton {
+    background-color: transparent;
     display: inline-block;
     max-width: 128px;
     max-height: 128px;
+}
+
+a > img:hover {
+    opacity: .5;
 }
 
 #carousel > figure > img{
