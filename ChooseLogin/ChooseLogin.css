@@ -180,6 +180,25 @@ input[type=checkbox] {
 #submitFilter {
     text-align: center;
 }
+
+/* style for features page */
+
+#featContainer {
+    background-color: rgb(32,17,162);
+    text-align: center;
+}
+
+#cloudFeature {
+    max-width: 128px;
+}
+
+#obsFeature {
+    max-width: 128px;
+}
+
+.col-md-4 > div {
+    text-align: center;
+}
 /* attempt at dropdown content
 #navBar .tooltiptext {
     visibility: hidden;

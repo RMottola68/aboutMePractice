@@ -42,7 +42,7 @@ function YTSignup () {
 }
 
 function logOut(){
-    window.location="ChooseLogin.html"
+    window.location="Index.html"
 }
 
 /* fake login validation (never used)
