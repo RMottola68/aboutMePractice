@@ -51,9 +51,13 @@ body {
     max-height: 128px;
 }
 
+/* highlights which platform button you mouseover */
+
 a > img:hover {
     opacity: .5;
 }
+
+/* code for features carousel */
 
 #carousel > figure > img{
     display: none;
@@ -88,7 +92,7 @@ a > img:hover {
     margin-top: 5px;
 }
   
-  .socialLogin {
+.socialLogin {
     transform: translateY(50%);
     color: rgb(32,17,72);
     background-color: white;
@@ -107,7 +111,8 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-  input[type=checkbox] {
+
+input[type=checkbox] {
       text-align: center;
   }
 
@@ -139,7 +144,35 @@ input[type=text], input[type=password] {
     margin-right: 10px;
 }
 
+#settings {
+    transform: translateY(50%);
+    color: rgb(85,231,255);
+    background-color: rgb(32,17,162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border: 3px solid rgb(255,52,179);
+}
 
+#checkboxes {
+    float: right;
+    text-align: left;
+}
+
+#filterLevels {
+    width: 400px;
+}
+
+#userRequests {
+    font-size: x-large;
+    float:right;
+    text-align: left;
+}
+
+#submitFilter {
+    text-align: center;
+}
 /* attempt at dropdown content
 #navBar .tooltiptext {
     visibility: hidden;
