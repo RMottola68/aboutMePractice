@@ -4,18 +4,24 @@ body {
     font-family: impact, arial, sans-sarif;
 }
 
-#navBar {
+.navBar {
+    padding-top: 10px;
+    padding-bottom: 5px;
     color: rgb(258, 78, 239);
     list-style-type: none;
     background-color: rgb(255,52,179);
 }
 
-#navBar > li {
+.navBar > li {
     display: inline;
     padding: 10px;
     color: rgb(85,231,255);
     font-size: x-large;
     position: relative; bottom: 8px;
+}
+
+.navBar li:hover {
+    background: rgb(32,17,162);
 }
 
 
@@ -24,6 +30,7 @@ body {
     text-align: center;
 }
 
+/* reactiveness for mobile */
 @media only screen and (max-width: 400px) {
     #choice{
     width: 60%;
@@ -120,17 +127,34 @@ input[type=text], input[type=password] {
     text-align: center;
 }
 
+/* Code for "Settings.html */
+
+.navBar > img {
+    padding: 0px 0px 0px 10px
+}
+
+#logout{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
 
 /* attempt at dropdown content
-
-.dropdown-content {
-    display: none;
+#navBar .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-*/
+li > #features:hover .tooltiptext {
+    visibility: visible;
+  }
 
+*/
