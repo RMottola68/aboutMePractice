@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Twitch Login</title>
-    <link rel="style"
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="ChooseLogin.css" />
+    <script type="text/javascript" src="ChooseLogin.js"></script>
 </head>
+
+<body>
+        <form class="socialLogin">
+            <fieldset>
+                <legend>Log In with Facebook</legend>
+                <input class="username" name="account" type="text" placeholder="Email or Phone Number" required="required" />
+                <br>
+                <input class="pass" type="password" placeholder="Password" required="required" />
+                <br>
+                <div class="loginButton">
+                    <input type="submit" onclick="logIn()" value="Login"/>
+                </div>
+                <br>
+                <div class="rememberme">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </div>
+                <br>
+                <hr>
+                <p class="or">OR</p>
+                <hr>
+                <div class="signup">
+                    <input type="button" onclick="facebookSignup()" value="Sign Up"/>
+                </div>
+            </fieldset>
+        </form>
+</body>
+
 </html>

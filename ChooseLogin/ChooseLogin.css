@@ -18,6 +18,7 @@ body {
     position: relative; bottom: 8px;
 }
 
+
 /* centers the platform buttons */
 #choice {
     text-align: center;
@@ -74,3 +75,57 @@ body {
     letter-spacing: 0.5px;
     margin-top: 5px;
 }
+  
+  .socialLogin {
+    transform: translateY(50%);
+    color: rgb(32,17,72);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border: 3px solid rgb(255,52,179);
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+      text-align: center;
+  }
+
+.or {
+    text-align: center;
+  }
+
+.loginButton {
+    text-align:center;
+}
+
+.signup {
+    text-align: center;
+}
+
+.rememberme {
+    text-align: center;
+}
+
+
+/* attempt at dropdown content
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+*/
+
