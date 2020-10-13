@@ -47,6 +47,19 @@ a {
     }
 }
 
+@media only screen and (max-width: 550px) {
+    .navBar > li {
+        font-size: large;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #access {
+        display: none;
+    }
+}
+
 #choice > p {
     padding-top: 20px;
     text-align: center;
