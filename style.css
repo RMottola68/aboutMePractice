@@ -1,0 +1,225 @@
+body {
+    color: rgb(85,231,255);
+    background-color: rgb(32,17,72);
+    font-family: impact, arial, sans-sarif;
+}
+
+.navBar {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: rgb(258, 78, 239);
+    list-style-type: none;
+    background-color: rgb(255,52,179);
+}
+
+.navBar > li {
+    display: inline;
+    padding: 10px;
+    color: rgb(85,231,255);
+    font-size: x-large;
+    position: relative; bottom: 8px;
+}
+
+a {
+    color:rgb(85,231,255);
+    text-decoration: none;
+}
+
+.navBar li:hover {
+    background: rgb(32,17,162);
+}
+
+/* Stream Censor Logo */
+#synthlogo {
+    padding-top: 50px;
+    text-align:center;
+}
+
+/* centers the platform buttons */
+#choice {
+    text-align: center;
+}
+
+/* reactiveness for mobile */
+@media only screen and (max-width: 400px) {
+    #choice{
+    width: 60%;
+    }
+}
+
+#choice > p {
+    padding-top: 20px;
+    text-align: center;
+    color:rgb(85,231,255);
+}
+
+/* places the three buttons on the same lines */
+.platformButton {
+    background-color: transparent;
+    display: inline-block;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+/* highlights which platform button you mouseover */
+
+a > img:hover {
+    opacity: .5;
+}
+
+/* code for features carousel */
+
+#carousel > figure > img{
+    display: none;
+    margin: 0px auto;
+}
+
+#carousel > figure.visible > img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel > figure > figcaption {
+    display: none;
+}
+
+#carousel > figure.visible > figcaption {
+    display: block;
+    text-align: center;
+}
+
+#carousel figure {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
+
+.addInfoCaption {
+    font-size: x-large;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+  
+.socialLogin {
+    transform: translateY(50%);
+    color: rgb(32,17,72);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border: 3px solid rgb(255,52,179);
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+input[type=checkbox] {
+      text-align: center;
+  }
+
+.or {
+    text-align: center;
+    font-size: larger;
+  }
+
+.loginButton {
+    text-align:center;
+}
+
+.signup {
+    text-align: center;
+}
+
+.rememberme {
+    text-align: center;
+}
+
+/* Code for "Settings.html */
+
+.navBar > img {
+    padding: 0px 0px 0px 10px
+}
+
+#logout{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#settings {
+    transform: translateY(20%);
+    color: rgb(85,231,255);
+    background-color: rgb(32,17,162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border: 3px solid rgb(255,52,179);
+}
+
+#checkboxes {
+    float: right;
+    text-align: left;
+}
+
+#filterLevels {
+    width: 400px;
+}
+
+#userRequests {
+    font-size: x-large;
+    float:right;
+    text-align: left;
+}
+
+#submitFilter {
+    text-align: center;
+}
+
+/* style for features page */
+
+#featContainer {
+    background-color: rgb(32,17,162);
+    text-align: center;
+}
+
+#cloudFeature {
+    max-width: 128px;
+}
+
+#obsFeature {
+    max-width: 128px;
+}
+
+.col-md-4 > div {
+    text-align: center;
+}
+/* attempt at dropdown content
+#navBar .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+li > #features:hover .tooltiptext {
+    visibility: visible;
+  }
+
+*/
