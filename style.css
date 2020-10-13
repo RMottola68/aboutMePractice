@@ -207,6 +207,14 @@ input[type=checkbox] {
     text-align: center;
 }
 
+.row {
+    text-align: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
 #cloudFeature {
     max-width: 128px;
 }
