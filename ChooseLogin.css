@@ -29,6 +29,12 @@ a {
     background: rgb(32,17,162);
 }
 
+/* Stream Censor Logo */
+#synthlogo {
+    padding-top: 50px;
+    text-align:center;
+}
+
 /* centers the platform buttons */
 #choice {
     text-align: center;
@@ -42,7 +48,7 @@ a {
 }
 
 #choice > p {
-    padding-top: 200px;
+    padding-top: 20px;
     text-align: center;
     color:rgb(85,231,255);
 }
